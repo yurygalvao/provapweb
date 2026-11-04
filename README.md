@@ -1,5 +1,23 @@
 # Prova Prática — Catálogo (Categoria 1-N Produto)
 
+> ## Observação sobre a entrega — Yury Galvão
+>
+> No commit `Rotas e telas` (03/11, 20:21) subiu por engano só o arquivo
+> `src/views/categorias/form.ejs`. O restante do código, feito durante a prova, foi
+> enviado depois, sem alterações, em commits separados por camada
+> (`Repository`, `Prisma`, `Service`, `Controller`, `Routes`, `Views`,
+> `Dependencias`), entre 21:29 e 21:33 do mesmo dia.
+>
+> Commits feitos durante a prova (horário de Brasília, 03/11/2026):
+>
+> | Horário  | Registro |
+> |----------|----------|
+> | 20:03:59 | Commit `Schema prisma` (`75e568e`) com `prisma/schema.prisma` (Categoria, Produto e relacionamento 1-N) |
+> | 20:21:53 | Commit `Rotas e telas` (`8711948`), mas só com `src/views/categorias/form.ejs` |
+>
+> Caso não seja possível considerar a entrega completa, tudo bem: o erro foi meu,
+> por falta de atenção. Peço que considere pelo menos o commit `Schema prisma`.
+
 Você recebe este **esqueleto já configurado** (Express + EJS + middlewares + layout).
 Seu trabalho é **preencher os módulos marcados com comentários/`TODO`** e **modelar o
 banco** com Prisma, implementando um CRUD das **duas entidades** com o relacionamento
